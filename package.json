@@ -2,9 +2,10 @@
   "name": "scrape-img",
   "version": "1.0.0",
   "description": "simple puppeteer code to download all evergreen images",
-  "main": "index.ts",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start:dev": "npx nodemon"
+    "start:dev": "yarn nodemon"
   },
   "author": "Filip Wojda <wojdafilipdev@gmail.com>",
   "license": "MIT",
@@ -12,7 +13,6 @@
     "@types/node": "^18.14.6",
     "node-fetch": "^3.3.0",
     "nodemon": "^2.0.21",
-    "puppeteer": "^19.7.3",
-    "typescript": "^4.9.5"
+    "puppeteer": "^19.7.3"
   }
 }
